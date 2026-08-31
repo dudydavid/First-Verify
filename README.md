@@ -6,30 +6,11 @@ The principle is simple:
 
 > Verify the measurement first. Then test the phenomenon. Only then ask whether it can be traded.
 
-This repository contains the public code accompanying articles in the series. Note that this is NOT the full research environment: only scripts relevant to published analyses are included here. I'm not planning to include live trading scripts, should there be any. 
-
-## Articles
-
-### 01 — What's Wrong With the Calendar? The Quiet Error in VX Futures Models
-
-Verifies the expiry-date logic used for standard monthly VIX futures contracts.
-
-The script:
-
-* parses monthly VX contract identifiers;
-* independently calculates the third Friday of the following month;
-* derives the nominal settlement date 30 calendar days earlier;
-* accounts for the holiday adjustments relevant to the 2013–2026 sample;
-* checks calculated expiry dates against observed contract terminal dates;
-* identifies holiday-adjusted contracts and validation failures.
-
-The accompanying article explains why a one-day expiry error can silently contaminate days-to-expiry classifications and maturity-conditioned analysis.
-
-**Script:** `01_expiry_calendar_verification.py`
+This repository contains the public code accompanying articles in the series. Note that this is NOT the full research environment: only scripts relevant to published analyses are included here. I'm not planning to include live trading scripts, if the research leads to any. 
 
 ## Research approach
 
-The broader project follows a few rules:
+The broader project follows a few rules, partly influenced by my favourite writer, Nassim Nicholas Taleb:
 
 1. **Falsification before explanation.**
    Establish that a phenomenon exists before constructing a theory around it.
@@ -60,4 +41,7 @@ The code is published for research transparency and reproducibility alongside th
 
 ## Disclaimer
 
-Nothing in this repository constitutes investment advice or a recommendation to buy or sell any financial instrument. The analyses may contain errors, incomplete assumptions, or results that do not survive further testing.
+Nothing in this repository constitutes investment advice or a recommendation to buy or sell any financial instrument.
+
+I try to minimise dependence on fragile assumptions and rigorously check for hidden errors, but as a single researcher I may still miss things.
+I would be very happy to receive corrections, stronger tests, and more creative ideas from you.
