@@ -1,6 +1,6 @@
 # First, Verify
 
-**First, Verify** is a research series on volatility markets, model construction, and the less glamorous work that should happen before strategy design.
+**First, Verify** is a research series on volatility markets, model construction, and the less glamorous work that should happen before and during strategy design.
 
 The principle is simple:
 
