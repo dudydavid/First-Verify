@@ -6,7 +6,7 @@ The principle is simple:
 
 > Verify the measurement first. Then test the phenomenon. Only then ask whether it can be traded.
 
-This repository contains the public code accompanying articles in the series. Note that this is NOT the full research environment: only scripts relevant to published analyses are included here. I'm not planning to include live trading scripts, if there will even be any. 
+This repository contains the public code accompanying articles in the series. Note that this is NOT the full research environment: only scripts relevant to published analyses are included here. I'm not planning to include live trading scripts, should there be any. 
 
 ## Articles
 
